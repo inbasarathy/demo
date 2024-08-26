@@ -1,0 +1,60 @@
+body{
+    background:url(./img/plain-background.jpg);
+}
+.heading1{
+    color: whitesmoke;
+    text-align: center;
+    font-size: 50px;
+    font-style: bold;
+    font-family: fantasy;
+}
+.heading2{
+    font-style:initial;
+    font-size: 30px;
+    color:lightcyan;
+    font-family:Courier;
+}
+h2{font-size: 30px;
+   text-align: center;
+
+}
+h2>p{
+        font-size: 20px;
+}
+h2 p{
+    color: yellow;
+}
+.container,.container2{
+    display: flex;
+    justify-content:space-around;
+}
+.container,.container2 p{
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size:20px;
+    text-align: center;
+}
+.container .container2 , button{
+ background-color: red;
+ margin-left: 7px;
+    
+}
+
+#ad{
+    text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: bold 20px;
+    margin-top: 5px;
+}
+.op{
+    backdrop-filter: blur(10px);
+}
+.container2{
+        display: flex;
+        justify-content: space-around;
+        flex-wrap:wrap;
+}
+.rr{
+    margin-top: 10px;
+    margin-bottom: 3px;
+}
+
